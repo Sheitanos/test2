@@ -1,0 +1,12 @@
+{
+    "name": "nico/fizzbuzz_nv1",
+    "require": {
+        "squizlabs/php_codesniffer": "^3.0"
+    },
+    "authors": [
+        {
+            "name": "nico",
+            "email": "nicolas@wildcodeschool.fr"
+        }
+    ]
+}
