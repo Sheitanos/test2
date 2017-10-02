@@ -1,0 +1,24 @@
+<div class="panel panel-default">
+                        <div class="panel-heading"><strong class="white">Ring Capabilities</strong></div>
+                        <div class="panel-body">
+                            <p class="black">What can our master Sauron do with the ring ?</p>
+                            <table>
+                                <tr>
+                                    <th>Feature</th>
+                                    <th>Description</th>
+                                </tr>
+
+                                <tr>
+                                    <td>Main</td>
+                                    <td>one ring to rules them all</td>
+                                </tr>
+                                <tr>
+                                    <td>Invisibility</td>
+                                    <td>You can't see me</td>
+                                </tr>
+                                <tr>
+                                    <td>Power</td>
+                                    <td>Destroy the world</td>
+                                </tr>
+                            </table>
+                        </div>

@@ -1,0 +1,309 @@
+
+@font-face{
+    font-family:'aniron';
+    src: url('police/anicb.ttf') format('truetype');
+}
+* {
+    font-family:'aniron';
+}
+
+/*---------------------------------------------police-----------------------------------------------------------*/
+.container-fluid {
+    margin: 0;
+}
+/*-------------------------------------------nav bar------------------------------------------------------------*/
+
+.navbar-header {
+    background: orangered;
+    width: 100%;
+    height: auto;
+}
+
+.onglet {
+     text-decoration:none;
+     color: white;
+ }
+ .onglet:hover  {
+    text-decoration: underline;
+     background:orangered;
+}
+h3 {
+    position:absolute;
+    margin-top:-50px;
+}
+
+/*--------------------------------------------carousel--------------------------------------------------------------*/
+hr {
+    visibility: hidden;
+    height: 8%;
+}
+
+#myCarousel {
+    margin-top: -22px;
+}
+
+/*------------------------------------------------fin carousel-----------------------------------------------------*/
+
+
+/*-------------------------------------------------pills----------------------------------------------------------*/
+
+.alive {
+    font-size: calc(2vw);
+    text-decoration:none;
+}
+
+.titre2 {
+    color: grey;
+    font-size: calc(1vw);
+}
+
+.titre2:hover  {
+    color: orangered;
+    text-decoration: underline;
+}
+
+/*----------------------------------------------------fin pills----------------------------------------------------*/
+
+
+/*--------------------------------------------thumbnails------------------------------------------------------------*/
+
+.pills {
+     background:url("data/bg_light.png");
+     margin-top:calc(-2vw);
+ }
+
+
+.perso {
+    border:10px solid black;
+    z-index:-1;
+    opacity:0.3;
+}
+.C1{
+    position:absolute;
+    background:white;
+    border:solid 1px grey;
+    border-radius: 10px;
+    text-align:center;
+    font-size:calc(2vw);
+    max-width: 480px;
+    height:auto;
+    margin-left:calc(1vw);
+    margin-top:calc(1vw);
+    z-index: 1;
+}
+
+.C2{
+    position:absolute;
+    color:white;
+    text-align:center;
+    font-size: calc(2vw);
+    margin-top:calc(-14vw);
+    margin-left:calc(8vw);
+    z-index:1;
+}
+.C3{
+    position:absolute;
+    font-size: calc(1vw);
+    margin-top:calc(-2vw);
+    margin-left:calc(10vw);
+    color:white;
+    text-align:center;
+    visibility:hidden;
+}
+
+.thumbnail {
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #000000 !important;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-left: 8%;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+    max-width: 506px;
+}
+
+.text-dessous {
+     text-align:center;
+     font-size:calc(1vw);
+     color:grey;
+ }
+
+.thumbnail:hover .perso{
+    opacity:1;
+}
+
+.thumbnail:hover .cadre{
+    visibility:hidden;
+}
+
+.thumbnail:hover .C2{
+    visibility:hidden;
+}
+
+.thumbnail:hover .C3{
+    visibility:visible;
+}
+
+.cadre2 {
+    position:absolute;
+    text-align:center;
+    font-size:calc(2vw);
+    margin-top:75px;
+    margin-left:12vw;
+}
+
+.orange{
+    color:orangered;
+}
+
+.orange2 {
+    color:orangered;
+    margin-left:-1.5vw;
+    text-decoration:line-through;
+}
+
+/*-------------------------------------------------fin thumbnails-------------------------------------------------*/
+
+/*----------------------------------------------------contacUs---------------------------------------------------*/
+
+.contactUs {
+    background:url("data/bg_dark.png");
+}
+
+.white {
+    color:white;
+    margin-bottom:3%;
+    font-size:calc(2vw);
+}
+
+.reward {
+    font-size: calc(1vw);
+    color:white;
+}
+
+.btn {
+    color:orangered;
+    padding-bottom: 2%;
+}
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 2vw;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background: white;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+/*---------------------------------------------------fin contactUs-------------------------------------------------*/
+
+/*-----------------------------------------------media object------------------------------------------------------*/
+
+.mediaOject {
+    background:url("data/bg_light.png");
+}
+
+.media-object {
+    margin-bottom: calc(2vw);
+}
+
+.black {
+    color:black;
+    font-size:calc(2vw);
+}
+
+h4 strong {
+    font-size:calc(2vw);
+    color:orangered;
+    text-shadow:1px 1px 1px black;
+}
+
+span {
+    text-decoration:underline;
+}
+
+/*-------------------------------------------------fin media object------------------------------------------------*/
+
+/*---------------------------------------------------panel-----------------------------------------------------------*/
+
+.panel {
+    background:url("data/bg_dark.png");
+}
+
+.panel-default > .panel-heading {
+    font-size:calc(2vw);
+    background-color:orangered !important;
+    border-color: #000000 !important;
+
+}
+.panel-body {
+    color: #000000;
+    font-size: calc(1vw);
+    background-color: lightgrey;
+}
+
+.gras {
+    font-size:calc(1.5vw);
+}
+
+/*------------------------------------------------------fin panel---------------------------------------------------*/
+
+/*--------------------------------------------------join army--------------------------------------------------------*/
+.joinArmy {
+    background: url("data/bg_light.png");
+}
+
+.joinArmy1 {
+    width: 90%;
+    font-size: 1.5vw;
+    margin-top: calc(2vw);
+}
+
+/*--------------------------------------------form------------------------------------------------------------------*/
+
+.form {
+    background: url("data/bg_dark.png");
+}
+
+.champ {
+    width: 70%;
+    margin-top: calc(2vw);
+}
+
+.champ1 {
+    width: 70%;
+    height: 10vw;
+    margin-top: calc(2vw);
+}
+
+/*--------------------------------------------------footer----------------------------------------------------------*/
+
+.footer {
+    background: orangered;
+}
+
+.mention {
+    font-size: calc(1vw);
+    color: white;
+}
+
+.mention strong {
+    font-size: calc(1.5vw);
+}
